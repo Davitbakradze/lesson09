@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+a{
+  font: normal normal bold 12px/18px Brandon Grotesque;
+  letter-spacing: 1.2px;
+  color: #000000;
+  opacity: 1;
+}
+
+.body{
+  position: relative;
+  background-color: #F7F7F7;
+}
+
+.header{
+  position: fixed;
+  top: 27px;
+  left: 23px;
+  right: 127px;
+}
+
+.header-box{
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-box{
+  width: 27px;
+  height: 27px;
+  border: 8px solid #000000;
+  border-radius: 50%;
+
+}
+
+.nav-list{
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-list-container{
+  height: 18px;
+  border-right: 1px solid black;
+}
+
+.nav-links{
+  padding: 0px 29.5px 0px ; 
+  transition: all .3s ease-out;
+}
+
+.nav-links::after{
+  content: " ";
+  width: 0;
+  height: 2px;
+  background-color: #000000;
+  margin: auto;
+  display: block;
+}
+
+.nav-links:hover::after{
+  width: 70%;
+  transition: linear 0.3s width ;
+}
+
+
+li:nth-of-type(4){
+ border: none;
+}
