@@ -538,3 +538,180 @@ li:nth-of-type(4){
   color: #000000;
   opacity: 1;
 }
+
+.more-projects{
+  position: absolute;
+  top: 4754px;
+  left: 45%;
+}
+
+.more{
+  width: 176px;
+  height: 48px;
+  background: #FF7600 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 6px #00000040;
+  opacity: 1;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button-icon{
+  width: 45px;
+  height: 36px;
+  border-right: white 2px solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.eye{
+  width: 31px;
+  height: 31px;
+  margin-left: 8px;
+
+}
+
+.button-name{
+  text-align: left;
+  font: normal normal bold 12px/33px Brandon Grotesque;
+  letter-spacing: 1.2px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-left: 15px;
+}
+
+
+.contact-section{
+  width: 100%;
+  height: 422px;
+  background-color: #ffffff;
+  top: 4877px;
+  position: absolute;
+  display: flex;
+}
+
+.contact-bar{
+  display: flex;
+  width: 70%;
+  height: 422px;
+  justify-content: space-between;
+}
+
+.bar{
+  display: flex;
+  flex-direction: column;
+  width: 331px;
+  height: 422px;
+  background: #F7F7F7 0% 0% no-repeat padding-box;
+  align-items: center;
+}
+
+.bar-name{
+  font: normal normal bold 16px Brandon Grotesque;
+  letter-spacing: 1.2px;
+  color: #111111;
+  opacity: 1;
+  padding-top: 62px;
+  padding-bottom: 59px;
+}
+
+
+.listed-item{
+  padding-bottom: 38px;
+}
+
+.item{
+  font: normal normal normal 13px Arial;
+  letter-spacing: 0.88px;
+  color: #959595;
+}
+
+.registration-box{
+  display: flex;
+  height: 422px;
+  width: 30%;
+  position: absolute;
+  top: 4877px;
+  left: 70%;
+  flex-direction: column;
+}
+
+.reg-name-box{
+  width: 327px;
+  height: 18px;
+  margin-left: 109px;
+  margin-top: 62px;
+}
+
+.reg-instruction-box{
+  width: 296px;
+  margin-left: 109px;
+  margin-top: 63px;
+}
+
+.reg-name{
+  font: normal normal bold 16px Brandon Grotesque;
+  letter-spacing: 1.2px;
+  color: #111111;
+  opacity: 1;
+}
+
+.reg-instruction{
+  text-align: left;
+  font: normal normal normal 14px/20px Tisa OT;
+  letter-spacing: 0.28px;
+  color: #111111;
+  opacity: 1;
+}
+
+.form-name{
+  text-align: left;
+  font: normal normal normal 11px/50px Arial;
+  letter-spacing: 0.88px;
+  color: #959595;
+  opacity: 1;
+  margin-left: 109px;
+  margin-top: 33px;
+}
+
+.form-box{
+  display: flex;
+  width: 297px;
+  height: 37px;
+  margin-left: 109px;
+  margin-top: 10px;
+  border: 1px solid #0865DE;
+  overflow-x: visible;
+  overflow-y: hidden;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+#email{
+  width: 250px;
+  height: 37px;
+  border: none;
+}
+
+::placeholder{
+  font: normal normal normal 11px/50px Arial;
+  letter-spacing: 0.88px;
+  color: #959595;
+  opacity: 1;
+  padding-left: 16px;
+}
+
+#OK{
+  background: var(--unnamed-color-0865de) 0% 0% no-repeat padding-box;
+  background: #0865DE 0% 0% no-repeat padding-box;
+  opacity: 1;
+  width: 45px;
+  height: 37px;
+  border: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+
