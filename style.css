@@ -714,4 +714,55 @@ li:nth-of-type(4){
   border-bottom-right-radius: 4px;
 }
 
+.footer{
+  position: absolute;
+  top: 5296.75px;
+  width: 100%;
+  height: 120px;
+  background-color:  #F7F7F7;
+  display: flex;
+  align-items: center;
+}
+
+.footer-box{
+  margin-left: 90px;
+  margin-left: 101px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo-text-box{
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo-box{
+  width: 27px;
+  height: 27px;
+  border: 8px solid var(--unnamed-color-000000);
+  border: 8px solid #000000;
+  opacity: 1;
+  border-radius: 50%;
+}
+
+.footer-text-box{
+  display: flex;
+  flex-direction: column;
+  margin-left: 37px;
+}
+
+.footer-text{
+  font: normal normal normal 11px/20px Arial;
+  letter-spacing: 0.88px;
+  color: #959595;
+}
+
+.license{
+  text-align: left;
+  letter-spacing: NaNpx;
+  color: #959595;
+  opacity: 1;
+}
+
 
