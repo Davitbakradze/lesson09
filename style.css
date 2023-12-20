@@ -17,8 +17,8 @@ a{
 
 .body{
   position: relative;
-  background-color: #F7F7F7;
-
+  background: #F7F7F7 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
 
 .header{
@@ -108,7 +108,7 @@ li:nth-of-type(4){
   color: #262626;
 }
 
-.container-box{
+.transparent-box{
   position: absolute;
   display: flex;
   top: 442px;
@@ -178,7 +178,7 @@ li:nth-of-type(4){
   position: absolute;
   display: flex;
   flex-direction: column;
-  background: #1c23a5 ;
+  background: #FFFFFF;
   border-radius: 6px;
   opacity: 1;
   width: 1740px;
@@ -207,7 +207,6 @@ li:nth-of-type(4){
 .profile-block{
   width: 199px;
   height: 278px;
-  background-color: aliceblue;
   display: flex;
   flex-direction: column; 
   align-items: center;     
@@ -253,4 +252,127 @@ li:nth-of-type(4){
   color: #111111;
   opacity: 1;
   margin-bottom: 15px;
+}
+
+.third-heading{
+  position: absolute;
+  top:1982px;
+  left: 180px;
+}
+
+.third-heading::first-line{
+  font: normal normal bold 25px/30px Brandon Grotesque;
+  letter-spacing: 5px;
+  color: #000000;
+  opacity: 1;
+}
+
+.third-impact-box{
+  position: absolute;
+  top: 2083px;
+  left: 180px;
+  width: 651px;
+}
+
+.third-text{
+  text-align: left;
+  font: normal normal normal 18px/33px Tisa OT;
+  letter-spacing: 0px;
+  color: #434343;
+}
+
+.application-row{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 2231.02px;
+  left: 180px;
+  right: 195px;
+}
+
+.application-box{
+  width: 315px;
+  height: 147px;
+  background: #0865DE 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 6px #00000029;
+  border-radius: 3px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.project-name{
+  text-align: left;
+  font: normal normal bold 14px/33px Brandon Grotesque;
+  letter-spacing: 1.4px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-left: 30px;
+}
+
+.project-type{
+  text-align: left;
+  font: normal normal bold 12px/33px Brandon Grotesque;
+  letter-spacing: 1.2px;
+  color: #002D69;
+  opacity: 1;
+  margin-left: 30px;
+}
+
+.transfer-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+  margin-left: 30px;
+}
+
+.transfer-icon{
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon-symbol{
+  opacity: 1;
+  margin-top: 2px;
+}
+
+.transfer-name::first-line{
+  text-align: left;
+  font: normal normal bold 12px;
+  letter-spacing: 1.2px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.second-transparent-box{
+  position: absolute;
+  display: flex;
+  top: 2468px;
+  left: 0px;
+  width: 100%;
+  height: 909px;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+  background: transparent linear-gradient(302deg, #051937 0%, #06162E 16%, #071326 45%, #050E1E 79%, #020916 100%) 0% 0% no-repeat padding-box;
+  opacity: 0.01;
+}
+
+.second-circle{
+  top: 2557px;
+  right: 60%;
+  width: 911px;
+  height: 911px;
+  background: transparent url('img/O.png') 0% 0% no-repeat padding-box;
+  border-color: #000000;
+  border:300px solid;
+  opacity: 0.03;
+  position: absolute;
+  border-radius: 50%;
 }
